@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TransitionScenes/MainMenu.unity
+    guid: bd20fcd7a88c6bd4bbe4c69461bfc35f
+  - enabled: 1
+    path: Assets/Scenes/TransitionScenes/CutsceneRemembrance.unity
+    guid: 1ed67bf855f8def4c9d5d33c1bc09c64
+  - enabled: 1
+    path: Assets/Scenes/TransitionScenes/CutsceneFight.unity
+    guid: 5dd5960ef85ade345ad29b01907e14c4
+  - enabled: 1
+    path: Assets/Scenes/TransitionScenes/CutsceneFamily.unity
+    guid: c8c6fa385c306e44db98ea8771eca728
+  - enabled: 1
+    path: Assets/Scenes/TransitionScenes/CutsceneHell.unity
+    guid: b97df9bf84d2bb7418f3ecbbbeb6527f
+  - enabled: 1
+    path: Assets/Scenes/TransitionScenes/CutsceneAltar.unity
+    guid: f1a862904f79e03408c0f93a9c3589bb
+  - enabled: 1
+    path: Assets/Scenes/TransitionScenes/CutsceneRelic.unity
+    guid: 793350c51caef5043b6886efe4da061d
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 47145571e5286c44493c13bf76be210d
+  - enabled: 1
+    path: Assets/Scenes/Level0.unity
+    guid: ea53746de8f38f945ad5f350bcff9548
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: 1e8d048e3065bab42b2c92c87871e5b8
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 0840b60f1a1b21b41b389e3f4c539b7b
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: ced0b78ab7093934ea35a95688eefd36
+  - enabled: 1
+    path: Assets/Scenes/Level4.unity
+    guid: 33cfbe8b793acbe468a281ec731896ab
+  - enabled: 1
+    path: Assets/Scenes/Level5.unity
+    guid: 2b0989ad9a22a2a44a68cf4587e12400
+  - enabled: 1
+    path: Assets/Scenes/TransitionScenes/Victory.unity
+    guid: 7eeb7330e796d6b44b21b5032a512c1b
+  - enabled: 1
+    path: Assets/Scenes/TransitionScenes/TryAgain.unity
+    guid: 65023834d3076854689e4137bbccf0ec
+  m_configObjects: {}

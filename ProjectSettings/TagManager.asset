@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Environment
+  - Altar Item
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Enemy
+  - Inner Wall
+  - Outer Wall
+  - Environment
+  - Item
+  - NPC
+  - Altar
+  - Spawn
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 3122034583
+    locked: 0
+  - name: Environment
+    uniqueID: 1338793643
+    locked: 0
+  - name: Unit
+    uniqueID: 818854305
+    locked: 0
+  - name: Item
+    uniqueID: 1066922269
+    locked: 0
+  - name: Minimap
+    uniqueID: 2720811783
+    locked: 0
