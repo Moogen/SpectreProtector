@@ -1,0 +1,12 @@
+- Unify all Monster names: 
+    - Goopies instead of Wanderers
+    - Gandoofs instead of Spawners 
+    - Minigoops instead of Spawn 
+    - Bookwyrms instead of Bookshelf Monsters 
+    - Basically, keep all the flavorful names instead of the boring ones 
+- Fix the timing on the Win animation 
+- Get the FadeOut script to work 
+- Refactor the Unit Controller code 
+    - Improve movement AI 
+    - I suspect the Bookwyrm hit detection is bugged => sometimes the NPC is hit by the Bookwyrm even when it doesn't look like it should be 
+    - Get rid of the "Hi" and "Bye" debug messages lol     

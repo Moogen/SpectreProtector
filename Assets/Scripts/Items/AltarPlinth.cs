@@ -51,6 +51,7 @@ public class AltarPlinth : Item
 
     protected override void Act()
     {
+        // The fact that these methods don't have anything in them makes me want to scrap the Item inheritance in favor of interfaces
     }
 
     protected override void UnAct()

@@ -27,25 +27,25 @@ EditorBuildSettings:
     path: Assets/Scenes/TransitionScenes/CutsceneRelic.unity
     guid: 793350c51caef5043b6886efe4da061d
   - enabled: 1
-    path: Assets/Scenes/Tutorial.unity
+    path: Assets/Scenes/Main Levels/Tutorial.unity
     guid: 47145571e5286c44493c13bf76be210d
   - enabled: 1
-    path: Assets/Scenes/Level0.unity
+    path: Assets/Scenes/Main Levels/Level0.unity
     guid: ea53746de8f38f945ad5f350bcff9548
   - enabled: 1
-    path: Assets/Scenes/Level1.unity
+    path: Assets/Scenes/Main Levels/Level1.unity
     guid: 1e8d048e3065bab42b2c92c87871e5b8
   - enabled: 1
-    path: Assets/Scenes/Level2.unity
+    path: Assets/Scenes/Main Levels/Level2.unity
     guid: 0840b60f1a1b21b41b389e3f4c539b7b
   - enabled: 1
-    path: Assets/Scenes/Level3.unity
+    path: Assets/Scenes/Main Levels/Level3.unity
     guid: ced0b78ab7093934ea35a95688eefd36
   - enabled: 1
-    path: Assets/Scenes/Level4.unity
+    path: Assets/Scenes/Main Levels/Level4.unity
     guid: 33cfbe8b793acbe468a281ec731896ab
   - enabled: 1
-    path: Assets/Scenes/Level5.unity
+    path: Assets/Scenes/Main Levels/Level5.unity
     guid: 2b0989ad9a22a2a44a68cf4587e12400
   - enabled: 1
     path: Assets/Scenes/TransitionScenes/Victory.unity
