@@ -486,7 +486,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: I was happy to see my children grow up in a world without danger.
+  m_text: "I was happy to see my children grow up in a world \nwithout danger."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8110c0518edb326478d2289fe725cc42, type: 2}
   m_sharedMaterial: {fileID: 21598501902068268, guid: 8110c0518edb326478d2289fe725cc42,
@@ -556,9 +556,9 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -258.7461, w: -4.7738857}
   m_textInfo:
     textComponent: {fileID: 1389358732}
-    characterCount: 65
+    characterCount: 66
     spriteCount: 0
-    spaceCount: 13
+    spaceCount: 14
     wordCount: 14
     linkCount: 0
     lineCount: 2
@@ -599,11 +599,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1389358730}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd004db8865c5e843a81e5a709e57081, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d79f1c881f65c94ea935f81929be821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delimiter: 59
   nextScene: CutsceneHell
-  skipButton: {fileID: 0}
 --- !u!114 &1489073901 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6303966668822788749, guid: 01f8273dfc24d3c4aa1c24c43be01dea,

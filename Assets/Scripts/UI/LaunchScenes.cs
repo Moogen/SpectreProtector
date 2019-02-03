@@ -35,7 +35,7 @@ public class LaunchScenes : MonoBehaviour
     private void Start()
     {
         camera = GameObject.Find("Main Camera");
-        fo = camera.GetComponent<FadeOut>();
+        // fo = camera.GetComponent<FadeOut>();
     }
 
     public void LaunchScene(int sceneBuildIndex)

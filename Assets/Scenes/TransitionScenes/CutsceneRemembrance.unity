@@ -193,12 +193,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f2fdddc578a2ef4e92bb015ec479f44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &353124255 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1543515207308098921, guid: f27158cc15750ce4c80b43eddd71640c,
-    type: 3}
-  m_PrefabInstance: {fileID: 2127600222}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &353124256 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1543515207308098922, guid: f27158cc15750ce4c80b43eddd71640c,
@@ -692,11 +686,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1835543701}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd004db8865c5e843a81e5a709e57081, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d79f1c881f65c94ea935f81929be821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delimiter: 59
   nextScene: CutsceneFight
-  skipButton: {fileID: 353124255}
 --- !u!1001 &2127600222
 PrefabInstance:
   m_ObjectHideFlags: 0

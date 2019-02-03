@@ -1,32 +1,40 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Threading;
-using UnityEngine.SceneManagement;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
+/**
+ * Takes the text in a TextMeshProUGUI component and causes it to scroll across the screen. 
+ * Multiple blocks of text can be delimited using ; (or whatever the user-assigned delimiter is).
+ * In order to make this look good, the TextMeshProUGUI component must be vertically aligned to the top. 
+ * Additionally, all line breaks must be manually put in. This prevents the text from typing out partially in one line 
+ * and then wrapping when it gets too long for the text box. 
+ * 
+ * By default, text block transitions will be triggered when the user presses the Space bar or clicks the left mouse button. 
+ * This can be changed in the waitForNext() function.
+ * 
+ * If the scene is part of a set of scene transitions, the nextScene field can be filled out and the next scene will load 
+ * after the final code block when the user triggers next. Otherwise, just leave the field blank. 
+ */
 public class ScrollingText : MonoBehaviour
 {
-    public string nextScene;
-    [SerializeField] GameObject skipButton;
-    TextMeshProUGUI tmp;
+    [SerializeField] private char delimiter = ';';
+    [SerializeField] private string nextScene;
+    private TextMeshProUGUI tmp; 
 
     private void Start()
     {
-        tmp = GetComponent<TextMeshProUGUI>();
+        if (tmp == null)
+        {
+            tmp = GetComponent<TextMeshProUGUI>();
+        }
         string desiredText = tmp.text;
-
-        string[] fullText = desiredText.Split('\n');
-
-        /*
-        tmp.outlineColor = Color.black;
-        tmp.outlineWidth = 0.5f;
-        */
-
+        string[] fullText = desiredText.Split(delimiter);
         tmp.text = "";
         StartCoroutine(fullScrollText(fullText));
     }
-    
+
     private IEnumerator fullScrollText(string[] fullText)
     {
         foreach (string s in fullText)
@@ -36,25 +44,19 @@ public class ScrollingText : MonoBehaviour
                 tmp.text += c;
                 yield return new WaitForSeconds(0.05f);
             }
-            yield return new WaitForSeconds(0.05f);
-            tmp.text += "\n";
+            yield return StartCoroutine(waitForNext());
+            tmp.text = "";
         }
-        /* Not convinced we actually want this functionality
-        if (skipButton != null)
-        {
-            skipButton.SetActive(false);
-        }
-        */
-        yield return StartCoroutine(waitForSpace(true));
-        if (!(SceneManager.GetActiveScene().name == "TryAgain"))
+        if (nextScene != "")
         {
             LaunchScenes.Instance.LaunchScene(nextScene);
         }
     }
 
-    private IEnumerator waitForSpace(bool wait)
+    private IEnumerator waitForNext()
     {
-        while(wait)
+        bool wait = true;
+        while (wait)
         {
             if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
             {
